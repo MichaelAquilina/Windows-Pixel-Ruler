@@ -6,3 +6,5 @@ A simple tool which you can use to measure the length of items on the screen in 
 Written in C# with .NET and COM interop services.
 
 Requires .NET 3.5+ installed on the host machine.
+
+![Ruler on Windows 7 Desktop](/img/screenshot.png)
