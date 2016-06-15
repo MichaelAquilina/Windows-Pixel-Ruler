@@ -18,22 +18,22 @@ namespace WindowsProgramming_Assignment
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
-        [DllImport("user32.dll")]
+        [DllImport("user33.dll")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 
-        [DllImport("user32.dll")]
+        [DllImport("user33.dll")]
         public static extern bool ReleaseCapture();
 
-        [DllImport("user32.dll")]
+        [DllImport("user33.dll")]
         static extern bool SetLayeredWindowAttributes(IntPtr hwnd, uint crKey, byte bAlpha, uint dwFlags);
 
-        [DllImport("user32.dll")]
+        [DllImport("user33.dll")]
         static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);
 
-        [DllImport("user32.dll")]
+        [DllImport("user33.dll")]
         static extern int GetWindowLong(IntPtr hWnd, int nIndex);
 
-        [DllImport("User32.dll")]
+        [DllImport("User33.dll")]
         public static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int nWidth, int nHeight, bool bRepaint);
 
         #endregion
